@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
-using UnityEditor.SceneTemplate;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.PlayerLoop;

@@ -4086,7 +4086,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 24.08368, y: -2.7017822}
+  m_AnchoredPosition: {x: 24.08374, y: -2.7017822}
   m_SizeDelta: {x: 47.83252, y: 51.40341}
   m_Pivot: {x: 0, y: 0}
 --- !u!1 &1047669301
@@ -4628,7 +4628,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 24.08368, y: 32.49829}
+  m_AnchoredPosition: {x: 24.08374, y: 32.49829}
   m_SizeDelta: {x: 47.83252, y: 51.40341}
   m_Pivot: {x: 0, y: 0}
 --- !u!1 &1206769989
@@ -7300,6 +7300,14 @@ PrefabInstance:
       propertyPath: _tilemap
       value: 
       objectReference: {fileID: 1003089831}
+    - target: {fileID: 6673520689091548373, guid: b4aa8965716feaa47b0b9cf4373ea421, type: 3}
+      propertyPath: mapSize.x
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 6673520689091548373, guid: b4aa8965716feaa47b0b9cf4373ea421, type: 3}
+      propertyPath: mapSize.y
+      value: 40
+      objectReference: {fileID: 0}
     - target: {fileID: 6673520689091548970, guid: b4aa8965716feaa47b0b9cf4373ea421, type: 3}
       propertyPath: m_Name
       value: MapGenerator
