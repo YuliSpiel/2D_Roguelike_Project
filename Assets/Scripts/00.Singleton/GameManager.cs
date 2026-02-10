@@ -51,6 +51,12 @@ public class GameManager : MonoBehaviour
         // StartCoroutine(Init());
     }
 
+    public void RestartGame()
+    {
+        Reset();
+        SceneManager.LoadScene(1);
+    }
+
     public void LoadScene(int sceneNumber)
     {
         SceneManager.LoadScene(sceneNumber);

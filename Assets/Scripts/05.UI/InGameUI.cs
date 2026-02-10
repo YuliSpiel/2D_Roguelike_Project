@@ -131,4 +131,11 @@ public class InGameUI : MonoBehaviour, IInitializable
         _keyCountPopup.SetActive(false);
     }
     
+    public void RetryGame()
+    {
+        SoundManager.Instance.StopSFX();
+        GameManager.Instance.RestartGame();
+        Time.timeScale = 1;
+    }
+
 }
